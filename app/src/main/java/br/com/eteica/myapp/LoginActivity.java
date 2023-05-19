@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
+import br.com.eteica.myapp.MenuActivity;
+
 public class LoginActivity extends AppCompatActivity {
     Button btnEntrar, btnSair;
     TextInputEditText txtUsuario, txtSenha;
@@ -48,6 +50,13 @@ public class LoginActivity extends AppCompatActivity {
                             "Usuário ou senha inválidos",
                             Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        lblCadastrarUsuario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),
+                        CadUsuActivity.class));
             }
         });
     }
