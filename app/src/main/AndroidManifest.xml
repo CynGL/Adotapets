@@ -12,18 +12,28 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".ParceirosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalizarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoacoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProdutosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetsActivity"
+            android:exported="false" />
+        <activity
             android:name=".CadUsuActivity"
             android:exported="false" />
         <activity
             android:name=".MenuActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,10 +42,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
