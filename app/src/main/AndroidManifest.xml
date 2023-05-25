@@ -48,7 +48,6 @@
         <activity
             android:name=".SplashActivity"
             android:exported="false">
-
         </activity>
         <activity
             android:name=".MainActivity"
