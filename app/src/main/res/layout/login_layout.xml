@@ -32,7 +32,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txtUsuario"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,6 +45,7 @@
             app:startIconDrawable="@drawable/baseline_pets">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtUsuario"
                 style="@style/CardView.Dark"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,7 +57,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txtSenha"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -69,6 +70,7 @@
             app:startIconDrawable="@drawable/baseline_lock">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtSenha"
                 style="@style/CardView.Dark"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
